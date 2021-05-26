@@ -1,0 +1,13 @@
+float32 x
+float32 y
+float32 z
+float32 yx
+float32 yy
+float32 yz
+float32 zx
+float32 zy
+float32 zz
+float32 alpha
+float32 beta
+float32 gamma
+float32 translationDist
