@@ -1,4 +1,4 @@
-prefix=/home/kaleab/Downloads/arm_ws/devel
+prefix=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel
 
 Name: arm_description
 Description: Description of arm_description

@@ -1,4 +1,4 @@
-prefix=/home/kaleab/Downloads/arm_ws/install
+prefix=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/install
 
 Name: arm_description
 Description: Description of arm_description

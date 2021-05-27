@@ -6,23 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kaleab/Downloads/arm_ws/devel/include/arm_lib/Angles.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/home/kaleab/Downloads/arm_ws/src/arm_lib/src/question1.cpp
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/question1.cpp
 iostream
 -
 stdio.h
@@ -30,9 +14,9 @@ stdio.h
 math.h
 -
 arm_lib/Angles.h
-/home/kaleab/Downloads/arm_ws/src/arm_lib/src/arm_lib/Angles.h
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/arm_lib/Angles.h
 ros/ros.h
-/home/kaleab/Downloads/arm_ws/src/arm_lib/src/ros/ros.h
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/ros/ros.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
@@ -242,10 +226,6 @@ boost/make_shared.hpp
 cstddef
 -
 memory
--
-
-/opt/ros/noetic/include/ros/message_operations.h
-ostream
 -
 
 /opt/ros/noetic/include/ros/message_traits.h

@@ -1,2 +1,2 @@
 arm_description:arm_gazebo:arm_lib
--DCATKIN_DEVEL_PREFIX=/home/kaleab/Downloads/arm_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kaleab/Downloads/arm_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/install -G Unix Makefiles

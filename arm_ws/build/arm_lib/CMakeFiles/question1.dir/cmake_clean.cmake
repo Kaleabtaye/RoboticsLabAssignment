@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1"
-  "/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1.pdb"
+  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1"
+  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1.pdb"
   "CMakeFiles/question1.dir/src/question1.cpp.o"
 )
 

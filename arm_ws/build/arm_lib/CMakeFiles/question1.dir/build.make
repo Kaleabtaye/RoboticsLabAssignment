@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaleab/Downloads/arm_ws/src
+CMAKE_SOURCE_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaleab/Downloads/arm_ws/build
+CMAKE_BINARY_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build
 
 # Include any dependencies generated for this target.
 include arm_lib/CMakeFiles/question1.dir/depend.make
@@ -58,17 +58,17 @@ include arm_lib/CMakeFiles/question1.dir/progress.make
 include arm_lib/CMakeFiles/question1.dir/flags.make
 
 arm_lib/CMakeFiles/question1.dir/src/question1.cpp.o: arm_lib/CMakeFiles/question1.dir/flags.make
-arm_lib/CMakeFiles/question1.dir/src/question1.cpp.o: /home/kaleab/Downloads/arm_ws/src/arm_lib/src/question1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaleab/Downloads/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object arm_lib/CMakeFiles/question1.dir/src/question1.cpp.o"
-	cd /home/kaleab/Downloads/arm_ws/build/arm_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/question1.dir/src/question1.cpp.o -c /home/kaleab/Downloads/arm_ws/src/arm_lib/src/question1.cpp
+arm_lib/CMakeFiles/question1.dir/src/question1.cpp.o: /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/question1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object arm_lib/CMakeFiles/question1.dir/src/question1.cpp.o"
+	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/question1.dir/src/question1.cpp.o -c /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/question1.cpp
 
 arm_lib/CMakeFiles/question1.dir/src/question1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/question1.dir/src/question1.cpp.i"
-	cd /home/kaleab/Downloads/arm_ws/build/arm_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaleab/Downloads/arm_ws/src/arm_lib/src/question1.cpp > CMakeFiles/question1.dir/src/question1.cpp.i
+	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/question1.cpp > CMakeFiles/question1.dir/src/question1.cpp.i
 
 arm_lib/CMakeFiles/question1.dir/src/question1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/question1.dir/src/question1.cpp.s"
-	cd /home/kaleab/Downloads/arm_ws/build/arm_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaleab/Downloads/arm_ws/src/arm_lib/src/question1.cpp -o CMakeFiles/question1.dir/src/question1.cpp.s
+	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/question1.cpp -o CMakeFiles/question1.dir/src/question1.cpp.s
 
 # Object files for target question1
 question1_OBJECTS = \
@@ -77,39 +77,39 @@ question1_OBJECTS = \
 # External object files for target question1
 question1_EXTERNAL_OBJECTS =
 
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: arm_lib/CMakeFiles/question1.dir/src/question1.cpp.o
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: arm_lib/CMakeFiles/question1.dir/build.make
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/libroscpp.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/librosconsole.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/librostime.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/libcpp_common.so
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1: arm_lib/CMakeFiles/question1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaleab/Downloads/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1"
-	cd /home/kaleab/Downloads/arm_ws/build/arm_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/question1.dir/link.txt --verbose=$(VERBOSE)
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: arm_lib/CMakeFiles/question1.dir/src/question1.cpp.o
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: arm_lib/CMakeFiles/question1.dir/build.make
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/libroscpp.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/librosconsole.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/librostime.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /opt/ros/noetic/lib/libcpp_common.so
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1: arm_lib/CMakeFiles/question1.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1"
+	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/question1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-arm_lib/CMakeFiles/question1.dir/build: /home/kaleab/Downloads/arm_ws/devel/lib/arm_lib/question1
+arm_lib/CMakeFiles/question1.dir/build: /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_lib/question1
 
 .PHONY : arm_lib/CMakeFiles/question1.dir/build
 
 arm_lib/CMakeFiles/question1.dir/clean:
-	cd /home/kaleab/Downloads/arm_ws/build/arm_lib && $(CMAKE_COMMAND) -P CMakeFiles/question1.dir/cmake_clean.cmake
+	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib && $(CMAKE_COMMAND) -P CMakeFiles/question1.dir/cmake_clean.cmake
 .PHONY : arm_lib/CMakeFiles/question1.dir/clean
 
 arm_lib/CMakeFiles/question1.dir/depend:
-	cd /home/kaleab/Downloads/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaleab/Downloads/arm_ws/src /home/kaleab/Downloads/arm_ws/src/arm_lib /home/kaleab/Downloads/arm_ws/build /home/kaleab/Downloads/arm_ws/build/arm_lib /home/kaleab/Downloads/arm_ws/build/arm_lib/CMakeFiles/question1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib/CMakeFiles/question1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : arm_lib/CMakeFiles/question1.dir/depend
 

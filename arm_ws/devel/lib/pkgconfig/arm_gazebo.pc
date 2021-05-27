@@ -1,8 +1,8 @@
-prefix=/home/kaleab/Downloads/arm_ws/devel
+prefix=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel
 
 Name: arm_gazebo
 Description: Description of arm_gazebo
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: roscpp gazebo_ros arm_lib
