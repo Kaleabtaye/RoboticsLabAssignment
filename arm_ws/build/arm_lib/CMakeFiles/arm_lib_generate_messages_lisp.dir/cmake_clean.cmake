@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_lib/msg/Angles.lisp"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_lib/msg/Angles.lisp"
   "CMakeFiles/arm_lib_generate_messages_lisp"
 )
 

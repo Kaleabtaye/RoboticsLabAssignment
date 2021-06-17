@@ -1,4 +1,4 @@
 # generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
 
-set(arm_lib_MSG_INCLUDE_DIRS "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/msg")
+set(arm_lib_MSG_INCLUDE_DIRS "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib/msg")
 set(arm_lib_MSG_DEPENDENCIES std_msgs)

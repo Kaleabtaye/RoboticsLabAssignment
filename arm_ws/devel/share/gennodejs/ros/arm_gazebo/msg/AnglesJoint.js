@@ -18,49 +18,49 @@ class AnglesJoint {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
-      this.jointA = null;
-      this.jointB = null;
-      this.jointC = null;
-      this.jointD = null;
+      this.joint1 = null;
+      this.joint2 = null;
+      this.joint3 = null;
+      this.joint4 = null;
     }
     else {
-      if (initObj.hasOwnProperty('jointA')) {
-        this.jointA = initObj.jointA
+      if (initObj.hasOwnProperty('joint1')) {
+        this.joint1 = initObj.joint1
       }
       else {
-        this.jointA = 0.0;
+        this.joint1 = 0.0;
       }
-      if (initObj.hasOwnProperty('jointB')) {
-        this.jointB = initObj.jointB
-      }
-      else {
-        this.jointB = 0.0;
-      }
-      if (initObj.hasOwnProperty('jointC')) {
-        this.jointC = initObj.jointC
+      if (initObj.hasOwnProperty('joint2')) {
+        this.joint2 = initObj.joint2
       }
       else {
-        this.jointC = 0.0;
+        this.joint2 = 0.0;
       }
-      if (initObj.hasOwnProperty('jointD')) {
-        this.jointD = initObj.jointD
+      if (initObj.hasOwnProperty('joint3')) {
+        this.joint3 = initObj.joint3
       }
       else {
-        this.jointD = 0.0;
+        this.joint3 = 0.0;
+      }
+      if (initObj.hasOwnProperty('joint4')) {
+        this.joint4 = initObj.joint4
+      }
+      else {
+        this.joint4 = 0.0;
       }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
     // Serializes a message object of type AnglesJoint
-    // Serialize message field [jointA]
-    bufferOffset = _serializer.float32(obj.jointA, buffer, bufferOffset);
-    // Serialize message field [jointB]
-    bufferOffset = _serializer.float32(obj.jointB, buffer, bufferOffset);
-    // Serialize message field [jointC]
-    bufferOffset = _serializer.float32(obj.jointC, buffer, bufferOffset);
-    // Serialize message field [jointD]
-    bufferOffset = _serializer.float32(obj.jointD, buffer, bufferOffset);
+    // Serialize message field [joint1]
+    bufferOffset = _serializer.float32(obj.joint1, buffer, bufferOffset);
+    // Serialize message field [joint2]
+    bufferOffset = _serializer.float32(obj.joint2, buffer, bufferOffset);
+    // Serialize message field [joint3]
+    bufferOffset = _serializer.float32(obj.joint3, buffer, bufferOffset);
+    // Serialize message field [joint4]
+    bufferOffset = _serializer.float32(obj.joint4, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -68,14 +68,14 @@ class AnglesJoint {
     //deserializes a message object of type AnglesJoint
     let len;
     let data = new AnglesJoint(null);
-    // Deserialize message field [jointA]
-    data.jointA = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [jointB]
-    data.jointB = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [jointC]
-    data.jointC = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [jointD]
-    data.jointD = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [joint1]
+    data.joint1 = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [joint2]
+    data.joint2 = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [joint3]
+    data.joint3 = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [joint4]
+    data.joint4 = _deserializer.float32(buffer, bufferOffset);
     return data;
   }
 
@@ -90,16 +90,16 @@ class AnglesJoint {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return 'e5eaaa2abf697b049f6fc9d4bce9e1e0';
+    return '99df565d35e16998dcc56f1295c43447';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    float32 jointA
-    float32 jointB
-    float32 jointC
-    float32 jointD
+    float32 joint1
+    float32 joint2
+    float32 joint3
+    float32 joint4
     `;
   }
 
@@ -109,32 +109,32 @@ class AnglesJoint {
       msg = {};
     }
     const resolved = new AnglesJoint(null);
-    if (msg.jointA !== undefined) {
-      resolved.jointA = msg.jointA;
+    if (msg.joint1 !== undefined) {
+      resolved.joint1 = msg.joint1;
     }
     else {
-      resolved.jointA = 0.0
+      resolved.joint1 = 0.0
     }
 
-    if (msg.jointB !== undefined) {
-      resolved.jointB = msg.jointB;
+    if (msg.joint2 !== undefined) {
+      resolved.joint2 = msg.joint2;
     }
     else {
-      resolved.jointB = 0.0
+      resolved.joint2 = 0.0
     }
 
-    if (msg.jointC !== undefined) {
-      resolved.jointC = msg.jointC;
+    if (msg.joint3 !== undefined) {
+      resolved.joint3 = msg.joint3;
     }
     else {
-      resolved.jointC = 0.0
+      resolved.joint3 = 0.0
     }
 
-    if (msg.jointD !== undefined) {
-      resolved.jointD = msg.jointD;
+    if (msg.joint4 !== undefined) {
+      resolved.joint4 = msg.joint4;
     }
     else {
-      resolved.jointD = 0.0
+      resolved.joint4 = 0.0
     }
 
     return resolved;

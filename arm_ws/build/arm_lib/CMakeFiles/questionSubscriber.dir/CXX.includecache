@@ -6,13 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/questionSubscriber.cpp
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include/arm_lib/Angles.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib/src/questionSubscriber.cpp
 ros/ros.h
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/ros/ros.h
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib/src/ros/ros.h
 std_msgs/String.h
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/std_msgs/String.h
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib/src/std_msgs/String.h
 arm_lib/Angles.h
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/src/arm_lib/Angles.h
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib/src/arm_lib/Angles.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

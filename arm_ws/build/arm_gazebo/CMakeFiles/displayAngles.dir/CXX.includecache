@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include/arm_gazebo/AnglesJoint.h
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include/arm_gazebo/AnglesJoint.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/displayAngles.cpp
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/displayAngles.cpp
 functional
 -
 gazebo/gazebo.hh
@@ -34,7 +34,7 @@ gazebo/physics/physics.hh
 gazebo/common/common.hh
 -
 arm_gazebo/AnglesJoint.h
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/arm_gazebo/AnglesJoint.h
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/arm_gazebo/AnglesJoint.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
@@ -8815,8 +8815,6 @@ ignition/msgs/model_configuration.pb.h
 -
 ignition/msgs/model_v.pb.h
 -
-ignition/msgs/occupancy_grid.pb.h
--
 ignition/msgs/odometry.pb.h
 -
 ignition/msgs/packet.pb.h
@@ -12481,46 +12479,6 @@ ignition/msgs/header.pb.h
 /usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/header.pb.h
 ignition/msgs/model.pb.h
 /usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/model.pb.h
-sys/sysmacros.h
--
-memory
--
-ignition/msgs/Export.hh
--
-
-/usr/include/ignition/msgs5/ignition/msgs/occupancy_grid.pb.h
-string
--
-google/protobuf/stubs/common.h
--
-google/protobuf/io/coded_stream.h
--
-google/protobuf/arena.h
--
-google/protobuf/arenastring.h
--
-google/protobuf/generated_message_table_driven.h
--
-google/protobuf/generated_message_util.h
--
-google/protobuf/inlined_string_field.h
--
-google/protobuf/metadata.h
--
-google/protobuf/message.h
--
-google/protobuf/repeated_field.h
--
-google/protobuf/extension_set.h
--
-google/protobuf/unknown_field_set.h
--
-ignition/msgs/header.pb.h
-/usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/header.pb.h
-ignition/msgs/pose.pb.h
-/usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/pose.pb.h
-ignition/msgs/time.pb.h
-/usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/time.pb.h
 sys/sysmacros.h
 -
 memory

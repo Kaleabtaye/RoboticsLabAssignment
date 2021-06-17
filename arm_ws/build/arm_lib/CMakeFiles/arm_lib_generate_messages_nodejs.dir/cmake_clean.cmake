@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_lib/msg/Angles.js"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_lib/msg/Angles.js"
   "CMakeFiles/arm_lib_generate_messages_nodejs"
 )
 

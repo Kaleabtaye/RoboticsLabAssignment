@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib/msg/_Angles.py"
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib/msg/__init__.py"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib/msg/_Angles.py"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib/msg/__init__.py"
   "CMakeFiles/arm_lib_generate_messages_py"
 )
 

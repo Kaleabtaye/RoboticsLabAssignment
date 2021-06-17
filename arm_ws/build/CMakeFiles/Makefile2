@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src
+CMAKE_SOURCE_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build
+CMAKE_BINARY_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -296,14 +296,14 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -323,14 +323,14 @@ CMakeFiles/doxygen.dir/clean:
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -350,14 +350,14 @@ CMakeFiles/run_tests.dir/clean:
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -377,14 +377,14 @@ CMakeFiles/clean_test_results.dir/clean:
 CMakeFiles/tests.dir/all:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -404,14 +404,14 @@ CMakeFiles/tests.dir/clean:
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -432,14 +432,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=21,22 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=21,22 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -459,14 +459,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=19,20 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=19,20 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -486,14 +486,14 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=25,26 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=25,26 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -513,14 +513,14 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=23,24 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=23,24 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -540,14 +540,14 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 arm_description/CMakeFiles/_catkin_empty_exported_target.dir/all:
 	$(MAKE) -f arm_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make arm_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
 	$(MAKE) -f arm_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make arm_description/CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target _catkin_empty_exported_target"
 .PHONY : arm_description/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
 arm_description/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_description/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -567,14 +567,14 @@ arm_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_py"
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -594,14 +594,14 @@ arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_lisp"
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -625,14 +625,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages.dir/all: arm_lib/CMakeFiles/arm_lib
 arm_lib/CMakeFiles/arm_lib_generate_messages.dir/all: arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_lib_generate_messages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_lib_generate_messages"
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -653,14 +653,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/all: arm_lib/CMakeFiles/std_
 arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/all: arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=15,16 "Built target arm_lib_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=15,16 "Built target arm_lib_generate_messages_py"
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -680,14 +680,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/clean:
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -707,14 +707,14 @@ arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 arm_lib/CMakeFiles/question1.dir/all: arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/question1.dir/build.make arm_lib/CMakeFiles/question1.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/question1.dir/build.make arm_lib/CMakeFiles/question1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=27,28 "Built target question1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=27,28 "Built target question1"
 .PHONY : arm_lib/CMakeFiles/question1.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/question1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/question1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/question1.dir/rule
 
 # Convenience name for target.
@@ -734,14 +734,14 @@ arm_lib/CMakeFiles/question1.dir/clean:
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -761,14 +761,14 @@ arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_nodejs"
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -788,14 +788,14 @@ arm_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_eus"
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -815,14 +815,14 @@ arm_lib/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 arm_lib/CMakeFiles/questionSubscriber.dir/all: arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/questionSubscriber.dir/build.make arm_lib/CMakeFiles/questionSubscriber.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/questionSubscriber.dir/build.make arm_lib/CMakeFiles/questionSubscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=29,30 "Built target questionSubscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=29,30 "Built target questionSubscriber"
 .PHONY : arm_lib/CMakeFiles/questionSubscriber.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/questionSubscriber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/questionSubscriber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/questionSubscriber.dir/rule
 
 # Convenience name for target.
@@ -842,14 +842,14 @@ arm_lib/CMakeFiles/questionSubscriber.dir/clean:
 arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_lisp"
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -869,14 +869,14 @@ arm_lib/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -896,14 +896,14 @@ arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
 arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_eus"
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -923,14 +923,14 @@ arm_lib/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_cpp"
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -950,14 +950,14 @@ arm_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
 arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_nodejs"
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -977,14 +977,14 @@ arm_lib/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_py"
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1004,14 +1004,14 @@ arm_lib/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/build.make arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/build.make arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target _arm_lib_generate_messages_check_deps_Angles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target _arm_lib_generate_messages_check_deps_Angles"
 .PHONY : arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/rule
 
 # Convenience name for target.
@@ -1031,14 +1031,14 @@ arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/clean:
 arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_msgs_generate_messages_cpp"
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1059,14 +1059,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/all: arm_lib/CMakeFiles/std
 arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/all: arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=11,12 "Built target arm_lib_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=11,12 "Built target arm_lib_generate_messages_eus"
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1086,14 +1086,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/clean:
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1113,14 +1113,14 @@ arm_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 arm_lib/CMakeFiles/arm_lib_genlisp.dir/all: arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_genlisp.dir/build.make arm_lib/CMakeFiles/arm_lib_genlisp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_genlisp.dir/build.make arm_lib/CMakeFiles/arm_lib_genlisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_lib_genlisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_lib_genlisp"
 .PHONY : arm_lib/CMakeFiles/arm_lib_genlisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_genlisp.dir/rule
 
 # Convenience name for target.
@@ -1141,14 +1141,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/all: arm_lib/CMakeFiles/_ar
 arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/all: arm_lib/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=10 "Built target arm_lib_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=10 "Built target arm_lib_generate_messages_cpp"
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1168,14 +1168,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/clean:
 arm_lib/CMakeFiles/arm_lib_geneus.dir/all: arm_lib/CMakeFiles/arm_lib_generate_messages_eus.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_geneus.dir/build.make arm_lib/CMakeFiles/arm_lib_geneus.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_geneus.dir/build.make arm_lib/CMakeFiles/arm_lib_geneus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_lib_geneus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_lib_geneus"
 .PHONY : arm_lib/CMakeFiles/arm_lib_geneus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_geneus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_geneus.dir/rule
 
 # Convenience name for target.
@@ -1196,14 +1196,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/all: arm_lib/CMakeFiles/st
 arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/all: arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=13 "Built target arm_lib_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=13 "Built target arm_lib_generate_messages_lisp"
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1224,14 +1224,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/all: arm_lib/CMakeFiles/
 arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/all: arm_lib/CMakeFiles/_arm_lib_generate_messages_check_deps_Angles.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/build.make arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=14 "Built target arm_lib_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=14 "Built target arm_lib_generate_messages_nodejs"
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1251,14 +1251,14 @@ arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/clean:
 arm_lib/CMakeFiles/arm_lib_gencpp.dir/all: arm_lib/CMakeFiles/arm_lib_generate_messages_cpp.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_gencpp.dir/build.make arm_lib/CMakeFiles/arm_lib_gencpp.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_gencpp.dir/build.make arm_lib/CMakeFiles/arm_lib_gencpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_lib_gencpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_lib_gencpp"
 .PHONY : arm_lib/CMakeFiles/arm_lib_gencpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_gencpp.dir/rule
 
 # Convenience name for target.
@@ -1278,14 +1278,14 @@ arm_lib/CMakeFiles/arm_lib_gencpp.dir/clean:
 arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/build.make arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target roscpp_generate_messages_py"
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1305,14 +1305,14 @@ arm_lib/CMakeFiles/roscpp_generate_messages_py.dir/clean:
 arm_lib/CMakeFiles/arm_lib_gennodejs.dir/all: arm_lib/CMakeFiles/arm_lib_generate_messages_nodejs.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_gennodejs.dir/build.make arm_lib/CMakeFiles/arm_lib_gennodejs.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_gennodejs.dir/build.make arm_lib/CMakeFiles/arm_lib_gennodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_lib_gennodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_lib_gennodejs"
 .PHONY : arm_lib/CMakeFiles/arm_lib_gennodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_gennodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -1332,14 +1332,14 @@ arm_lib/CMakeFiles/arm_lib_gennodejs.dir/clean:
 arm_lib/CMakeFiles/arm_lib_genpy.dir/all: arm_lib/CMakeFiles/arm_lib_generate_messages_py.dir/all
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_genpy.dir/build.make arm_lib/CMakeFiles/arm_lib_genpy.dir/depend
 	$(MAKE) -f arm_lib/CMakeFiles/arm_lib_genpy.dir/build.make arm_lib/CMakeFiles/arm_lib_genpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_lib_genpy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_lib_genpy"
 .PHONY : arm_lib/CMakeFiles/arm_lib_genpy.dir/all
 
 # Build rule for subdir invocation for target.
 arm_lib/CMakeFiles/arm_lib_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_lib/CMakeFiles/arm_lib_genpy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_lib/CMakeFiles/arm_lib_genpy.dir/rule
 
 # Convenience name for target.
@@ -1359,14 +1359,14 @@ arm_lib/CMakeFiles/arm_lib_genpy.dir/clean:
 arm_gazebo/CMakeFiles/displayAngles.dir/all: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/displayAngles.dir/build.make arm_gazebo/CMakeFiles/displayAngles.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/displayAngles.dir/build.make arm_gazebo/CMakeFiles/displayAngles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=17,18 "Built target displayAngles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=17,18 "Built target displayAngles"
 .PHONY : arm_gazebo/CMakeFiles/displayAngles.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/displayAngles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/displayAngles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/displayAngles.dir/rule
 
 # Convenience name for target.
@@ -1386,14 +1386,14 @@ arm_gazebo/CMakeFiles/displayAngles.dir/clean:
 arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/all: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_gazebo_genpy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_gazebo_genpy"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/rule
 
 # Convenience name for target.
@@ -1413,14 +1413,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/clean:
 arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/all: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_gazebo_gennodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_gazebo_gennodejs"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -1441,14 +1441,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/all: arm_lib/CMake
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/all: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=7 "Built target arm_gazebo_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=7 "Built target arm_gazebo_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1468,14 +1468,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/all: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_gazebo_genlisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_gazebo_genlisp"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir/rule
 
 # Convenience name for target.
@@ -1496,14 +1496,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/all: arm_lib/CMakeFi
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/all: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=6 "Built target arm_gazebo_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=6 "Built target arm_gazebo_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1523,14 +1523,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1550,14 +1550,14 @@ arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1577,14 +1577,14 @@ arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target gazebo_msgs_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1604,14 +1604,14 @@ arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target trajectory_msgs_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1631,14 +1631,14 @@ arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target trajectory_msgs_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1658,14 +1658,14 @@ arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_msgs_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1685,14 +1685,14 @@ arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1713,14 +1713,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/all: arm_lib/CMakeFile
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/all: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=8,9 "Built target arm_gazebo_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=8,9 "Built target arm_gazebo_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1740,14 +1740,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target sensor_msgs_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1767,14 +1767,14 @@ arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1794,14 +1794,14 @@ arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target gazebo_msgs_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1821,14 +1821,14 @@ arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1848,14 +1848,14 @@ arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1875,14 +1875,14 @@ arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1902,14 +1902,14 @@ arm_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1929,14 +1929,14 @@ arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target sensor_msgs_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1956,14 +1956,14 @@ arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target sensor_msgs_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1983,14 +1983,14 @@ arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/build.make arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/build.make arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target _arm_gazebo_generate_messages_check_deps_AnglesJoint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target _arm_gazebo_generate_messages_check_deps_AnglesJoint"
 .PHONY : arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/rule
 
 # Convenience name for target.
@@ -2010,14 +2010,14 @@ arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/c
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2037,14 +2037,14 @@ arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2064,14 +2064,14 @@ arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target gazebo_msgs_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2091,14 +2091,14 @@ arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build.make arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build.make arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target gazebo_ros_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target gazebo_ros_gencfg"
 .PHONY : arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/rule
 
 # Convenience name for target.
@@ -2118,14 +2118,14 @@ arm_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/clean:
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2145,14 +2145,14 @@ arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2172,14 +2172,14 @@ arm_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2199,14 +2199,14 @@ arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target dynamic_reconfigure_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2226,14 +2226,14 @@ arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/all: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_gazebo_gencpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_gazebo_gencpp"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/rule
 
 # Convenience name for target.
@@ -2253,14 +2253,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_gencpp.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2280,14 +2280,14 @@ arm_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target trajectory_msgs_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2307,14 +2307,14 @@ arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2334,14 +2334,14 @@ arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2361,14 +2361,14 @@ arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2388,14 +2388,14 @@ arm_gazebo/CMakeFiles/tf_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2415,14 +2415,14 @@ arm_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2442,14 +2442,14 @@ arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf2_msgs_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2469,14 +2469,14 @@ arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target dynamic_reconfigure_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2496,14 +2496,14 @@ arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2523,14 +2523,14 @@ arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/arm_gazebo.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=1,2 "Built target arm_gazebo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=1,2 "Built target arm_gazebo"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo.dir/rule
 
 # Convenience name for target.
@@ -2550,14 +2550,14 @@ arm_gazebo/CMakeFiles/arm_gazebo.dir/clean:
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target std_srvs_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2578,14 +2578,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/all: arm_lib/CMakeFil
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/all: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=3 "Built target arm_gazebo_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=3 "Built target arm_gazebo_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2605,14 +2605,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir/clean:
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target sensor_msgs_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2632,14 +2632,14 @@ arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf2_msgs_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2659,14 +2659,14 @@ arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf2_msgs_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2686,14 +2686,14 @@ arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2713,14 +2713,14 @@ arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target dynamic_reconfigure_gencfg"
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -2740,14 +2740,14 @@ arm_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_msgs_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2767,14 +2767,14 @@ arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target dynamic_reconfigure_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2794,14 +2794,14 @@ arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2821,14 +2821,14 @@ arm_gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target dynamic_reconfigure_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2848,14 +2848,14 @@ arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target gazebo_msgs_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2875,14 +2875,14 @@ arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target dynamic_reconfigure_generate_messages_nodejs"
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2902,14 +2902,14 @@ arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean:
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target tf2_msgs_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2929,14 +2929,14 @@ arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target gazebo_msgs_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2956,14 +2956,14 @@ arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target trajectory_msgs_generate_messages_lisp"
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2983,14 +2983,14 @@ arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -3010,14 +3010,14 @@ arm_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target trajectory_msgs_generate_messages_py"
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -3037,14 +3037,14 @@ arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean:
 arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/all:
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target actionlib_generate_messages_cpp"
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -3068,14 +3068,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/all: arm_gazebo/CMakeFile
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/all: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_gazebo_generate_messages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_gazebo_generate_messages"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -3096,14 +3096,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/all: arm_lib/CMakeFil
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/all: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=4,5 "Built target arm_gazebo_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=4,5 "Built target arm_gazebo_generate_messages_eus"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -3123,14 +3123,14 @@ arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/clean:
 arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/all: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/all
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/depend
 	$(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num= "Built target arm_gazebo_geneus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num= "Built target arm_gazebo_geneus"
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/all
 
 # Build rule for subdir invocation for target.
 arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" 0
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule
 
 # Convenience name for target.

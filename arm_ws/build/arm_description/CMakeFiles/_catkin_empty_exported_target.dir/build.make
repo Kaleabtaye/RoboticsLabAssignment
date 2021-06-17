@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src
+CMAKE_SOURCE_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build
+CMAKE_BINARY_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build"
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ arm_description/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empt
 .PHONY : arm_description/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 arm_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_description" && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : arm_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 arm_description/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_description /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_description /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_description" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_description" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : arm_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

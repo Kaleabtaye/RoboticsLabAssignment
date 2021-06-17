@@ -67,14 +67,14 @@ set(arm_gazebo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(arm_gazebo_SOURCE_PREFIX /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo)
-  set(arm_gazebo_DEVEL_PREFIX /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel)
+  set(arm_gazebo_SOURCE_PREFIX /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo)
+  set(arm_gazebo_DEVEL_PREFIX /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel)
   set(arm_gazebo_INSTALL_PREFIX "")
   set(arm_gazebo_PREFIX ${arm_gazebo_DEVEL_PREFIX})
 else()
   set(arm_gazebo_SOURCE_PREFIX "")
   set(arm_gazebo_DEVEL_PREFIX "")
-  set(arm_gazebo_INSTALL_PREFIX /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/install)
+  set(arm_gazebo_INSTALL_PREFIX /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/install)
   set(arm_gazebo_PREFIX ${arm_gazebo_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(arm_gazebo_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include " STREQUAL " ")
+if(NOT "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include " STREQUAL " ")
   set(arm_gazebo_INCLUDE_DIRS "")
-  set(_include_dirs "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include")
+  set(_include_dirs "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include " STRE
         message(FATAL_ERROR "Project 'arm_gazebo' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'arm_gazebo' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'arm_gazebo' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/${idir}'.  ${_report}")
     endif()
     _list_append_unique(arm_gazebo_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(arm_gazebo_LIBRARIES ${arm_gazebo_LIBRARIES})
 
   _list_append_unique(arm_gazebo_LIBRARY_DIRS ${${arm_gazebo_dep}_LIBRARY_DIRS})
-  _list_append_deduplicate(arm_gazebo_EXPORTED_TARGETS ${${arm_gazebo_dep}_EXPORTED_TARGETS})
+  list(APPEND arm_gazebo_EXPORTED_TARGETS ${${arm_gazebo_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "arm_gazebo-msg-extras.cmake")

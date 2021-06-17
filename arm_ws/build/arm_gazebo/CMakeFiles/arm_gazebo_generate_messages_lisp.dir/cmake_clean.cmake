@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/msg/AnglesJoint.lisp"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/msg/AnglesJoint.lisp"
   "CMakeFiles/arm_gazebo_generate_messages_lisp"
 )
 

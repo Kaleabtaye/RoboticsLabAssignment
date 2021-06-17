@@ -1,9 +1,17 @@
 #include <functional>
+#include "gazebo/transport/transport.hh"
 #include <gazebo/gazebo.hh>
 #include <gazebo/physics/physics.hh>
 #include <gazebo/common/common.hh>
 #include <ignition/math/Vector3.hh>
 #include <iostream>
+#include <thread>
+#include "ros/ros.h"
+#include "ros/callback_queue.h"
+#include "arm_gazebo/pose.h"
+#include "arm_gazebo/IK.h"
+#include "arm_gazebo/FK.h"
+
 namespace gazebo
 {
 	class ModelPush : public ModelPlugin
@@ -11,89 +19,79 @@ namespace gazebo
 	public:
 		void Load(physics::ModelPtr _parent, sdf::ElementPtr /*_sdf*/)
 		{
-			this->model = _model;
-			// this->pid = common::PID(12.4, 25.2, 10.5);
-			this->jointController = this->model->GetJointController();
+			// Safety check
+			if (_parent->GetJointCount() == 0)
+			{
+				std::cerr << "Invalid joint count, MyRobot Plugin not loaded\n";
+				return;
+			}
 
-			// CREATE THE TOPIC
-			const std::string topicName = "~/" + this->model->GetName() + "/vel_cmd";
+			// Store the pointer to the model
+			this->model = _parent;
+
+			// // instantiate the joint controller
+			this->jointController = this->model->GetJointController();
+			// instantiate the angles publisher node
+			ros::NodeHandle node;
+			this->posePublisher = node.advertise<arm_gazebo::pose>("arm/current_pose", 1000);
+			//this->posePublisher = node.advertise<arm_lib::angles>("arm/")
+
+			std::string chasisArm1Joint = this->model->GetJoint("chasis_arm1_joint")->GetScopedName();
+			std::string arm1Arm2Joint = this->model->GetJoint("arm1_arm2_joint")->GetScopedName();
+			std::string arm2Arm3Joint = this->model->GetJoint("arm2_arm3_joint")->GetScopedName();
+			std::string arm3Arm4Joint = this->model->GetJoint("arm3_arm4_joint")->GetScopedName();
+			std::string arm4Arm5Joint = this->model->GetJoint("arm4_arm5_joint")->GetScopedName();
+			std::string arm5PalmJoint = this->model->GetJoint("arm5_palm_joint")->GetScopedName();
+
+			common::PID joint1PID = common::PID(30.0, 10.0, 7.0);
+			common::PID joint2PID = common::PID(25.0, 8.0, 6.0);
+			common::PID joint3PID = common::PID(20.0, 7.0, 5.0);
+			common::PID joint4PID = common::PID(17.0, 6.0, 4.0);
+			common::PID joint5PID = common::PID(15.0, 5.0, 3.0);
+			common::PID joint6PID = common::PID(10.0, 4.0, 2.0);
+
+			this->SetPID(chasisArm1Joint, joint1PID);
+			this->SetPID(arm1Arm2Joint, joint2PID);
+			this->SetPID(arm2Arm3Joint, joint3PID);
+			this->SetPID(arm3Arm4Joint, joint4PID);
+			this->SetPID(arm4Arm5Joint, joint5PID);
+			this->SetPID(arm5PalmJoint, joint6PID);
+
+			// Initialize ros, if it has not already bee initialized.
 			if (!ros::isInitialized())
 			{
 				int argc = 0;
 				char **argv = NULL;
-				ros::init(argc, argv, "gazebo_client", ros::init_options::NoSigintHandler);
+				ros::init(argc, argv, "gazebo_client",
+						  ros::init_options::NoSigintHandler);
 			}
-
+			// Create our ROS node. This acts in a similar manner to
+			// the Gazebo node
 			this->rosNode.reset(new ros::NodeHandle("gazebo_client"));
 
-			// ros::NodeHandle n;
-			// this->pidPublisher = n.advertise<arm_gazebo::JointAngles>("/pidPublisher", 1000);
-
+			// Create a named topic, and subscribe to it.
 			ros::SubscribeOptions so =
-				ros::SubscribeOptions::create<arm_gazebo::JointAngles>(
-					"/pidPublisher",
+				ros::SubscribeOptions::create<arm_gazebo::pose>(
+					"/" + this->model->GetName() + "/pose_cmd",
 					1,
-					boost::bind(&gazebo::ProgrammablePID::OnMsg, this, _1),
+					boost::bind(&ModelPush::OnRosMsg, this, _1),
 					ros::VoidPtr(), &this->rosQueue);
+
 			this->rosSub = this->rosNode->subscribe(so);
 
-			this->rosQueueThread = std::thread(std::bind(&ProgrammablePID::QueueThread, this));
+			// Spin up the queue helper thread.
+			this->rosQueueThread = std::thread(std::bind(&ModelPush::QueueThread, this));
+
+			this->publisherThread = std::thread(std::bind(&ModelPush::publishPose, this));
+
+
+			std::vector<double> _pose = {0.0, 20.0, 30.0};
+			this->catchBox(_pose);
+			//std::vector<double> rel = {20.0, 10.0, 2.0};
+			//this->releaseBox(rel);
 		}
 
-	public:
-		void OnMsg(const arm_gazebo::JointAngles::ConstPtr &_msg)
-		{
-			this->SetAngles(_msg->joint1, _msg->joint2, _msg->joint3, _msg->joint4);
-		}
-
-	public:
-		void SetAngles(double _angle1, double _angle2, double _angle3, double _angle4)
-		{
-			std::string joint1 = this->model->GetJoint("chasis_arm1_joint")->GetScopedName();
-			std::string joint2 = this->model->GetJoint("arm1_arm2_joint")->GetScopedName();
-			std::string joint3 = this->model->GetJoint("arm2_arm3_joint")->GetScopedName();
-			std::string joint4 = this->model->GetJoint("arm3_arm4_joint")->GetScopedName();
-
-			double _newAngle1 = _angle1 * 180.0 / M_PI;
-			double _newAngle2 = _angle2 * 180.0 / M_PI;
-			double _newAngle3 = _angle3 * 180.0 / M_PI;
-			double _newAngle4 = _angle4 * 180.0 / M_PI;
-
-			this->jointController->SetJointPosition(joint1, _newAngle1, 0);
-			this->jointController->SetJointPosition(joint2, _newAngle2, 0);
-			this->jointController->SetJointPosition(joint3, _newAngle3, 0);
-			this->jointController->SetJointPosition(joint4, _newAngle4, 0);
-		}
-
-		// Called by the world update start event
-	public:
-		void OnUpdate()
-		{
-			float angleDegree = -90;
-			float rad = M_PI * angleDegree / 180;
-
-			std::string name = this->model->GetJoint("arm1_arm2_joint")->GetScopedName();
-			// this->jointController->SetPositionPID(name, pid);
-			// this->jointController->SetPositionTarget(name, rad);
-			// this->jointController->Update();
-
-			// Get joint position by index.
-			// 0 returns rotation accross X axis
-			// 1 returns rotation accross Y axis
-			// 2 returns rotation accross Z axis
-			// If the Joint has only Z axis for rotation, 0 returns that value and 1 and 2 return nan
-			double a1 = physics::JointState(this->model->GetJoint("arm1_arm2_joint")).Position(0);
-			double a2 = physics::JointState(this->model->GetJoint("arm2_arm3_joint")).Position(0);
-			double a3 = physics::JointState(this->model->GetJoint("arm3_arm4_joint")).Position(0);
-			double a4 = physics::JointState(this->model->GetJoint("chasis_arm1_joint")).Position(0);
-			// double a2 = this->model->GetJoint("chasis_arm1_joint").Position(0);
-			// double a3 = physics::JointState(this->model->GetJoint("chasis_arm1_joint")).Position(2);
-			std::cout << "Current arm1_arm2_joint values: " << a1 * 180.0 / M_PI << std::endl;
-			std::cout << "Current arm2_arm3_joint values: " << a2 * 180.0 / M_PI << std::endl;
-			std::cout << "Current arm3_arm4_joint values: " << a3 * 180.0 / M_PI << std::endl;
-			std::cout << "Current chasis_arm1_joint values: " << a4 * 180.0 / M_PI << std::endl;
-		}
-
+		/// \brief ROS helper function that processes messages
 	private:
 		void QueueThread()
 		{
@@ -104,21 +102,163 @@ namespace gazebo
 			}
 		}
 
-		// a pointer that points to a model object
 	private:
-		std::unique_ptr<ros::NodeHandle> rosNode;
+		void OnRosMsg(const arm_gazebo::poseConstPtr _pose)
+		{
+			this->updateJointAngles({_pose->x, _pose->y, _pose->z});
+		}
 
 	private:
-		ros::Subscriber rosSub;
+		void updateJointAngles(std::vector<double> _pose)
+		{
+			std::vector<double> joint_angles = this->inverseKinematics(_pose);
+
+			std::string chasisArm1Joint = this->model->GetJoint("chasis_arm1_joint")->GetScopedName();
+			std::string arm1Arm2Joint = this->model->GetJoint("arm1_arm2_joint")->GetScopedName();
+			std::string arm2Arm3Joint = this->model->GetJoint("arm2_arm3_joint")->GetScopedName();
+			std::string arm3Arm4Joint = this->model->GetJoint("arm3_arm4_joint")->GetScopedName();
+			std::string arm4Arm5Joint = this->model->GetJoint("arm4_arm5_joint")->GetScopedName();
+			std::string arm5PalmJoint = this->model->GetJoint("arm5_palm_joint")->GetScopedName();
+
+
+			common::PID joint1PID = common::PID(30.0, 10.0, 7.0);
+			common::PID joint2PID = common::PID(25.0, 8.0, 6.0);
+			common::PID joint3PID = common::PID(20.0, 7.0, 5.0);
+			common::PID joint4PID = common::PID(17.0, 6.0, 4.0);
+			common::PID joint5PID = common::PID(15.0, 5.0, 3.0);
+			common::PID joint6PID = common::PID(10.0, 4.0, 2.0);
+
+			this->SetPID(chasisArm1Joint, joint1PID);
+			this->SetAngle(chasisArm1Joint, joint_angles[0]);
+
+			this->SetPID(arm1Arm2Joint, joint2PID);
+			this->SetAngle(arm1Arm2Joint, joint_angles[1]);
+
+			this->SetPID(arm2Arm3Joint, joint3PID);
+			this->SetAngle(arm2Arm3Joint, joint_angles[2]);
+
+			this->SetPID(arm3Arm4Joint, joint4PID);
+			this->SetAngle(arm3Arm4Joint, joint_angles[3]);
+
+			this->SetPID(arm4Arm5Joint, joint5PID);
+			this->SetAngle(arm4Arm5Joint, joint_angles[4]);
+
+			this->SetPID(arm5PalmJoint, joint6PID);
+			this->SetAngle(arm5PalmJoint, joint_angles[5]);
+
+			this->jointController->Update();
+		}
 
 	private:
-		ros::CallbackQueue rosQueue;
+		double GetAngle(std::string jointName)
+		{
+			return physics::JointState(this->model->GetJoint(jointName)).Position();
+		}
 
 	private:
-		std::thread rosQueueThread;
+		void SetAngle(std::string jointName, double _angle)
+		{
+			this->jointController->SetPositionTarget(jointName, _angle);
+		}
 
 	private:
-		ros::Publisher pidPublisher;
+		void SetPID(std::string jointName, common::PID _pid)
+		{
+			this->jointController->SetPositionPID(jointName, _pid);
+		}
+
+	private:
+		void publishPose()
+		{
+			while (ros::ok())
+			{
+				double joint1 = this->GetAngle("chasis_arm1_joint");
+				double joint2 = this->GetAngle("arm1_arm2_joint");
+				double joint3 = this->GetAngle("arm2_arm3_joint");
+				double joint4 = this->GetAngle("arm3_arm4_joint");
+				double joint5 = this->GetAngle("arm4_arm5_joint");
+				double joint6 = this->GetAngle("arm5_palm_joint");
+				
+
+				// change to radian to degree
+				joint1 = joint1 * 180.0 / M_PI;
+				joint2 = joint2 * 180.0 / M_PI;
+				joint3 = joint3 * 180.0 / M_PI;
+				joint4 = joint4 * 180.0 / M_PI;
+				joint5 = joint5 * 180.0 / M_PI;
+				joint6 = joint6 * 180.0 / M_PI;
+
+				std::vector<double> joint_angles = {joint1, joint2, joint3, joint4, joint5, joint6};
+				std::vector<double> link_lengths = {0.1, 0.05, 2.0, 1.0, 0.5, 0.5, 0.3};
+				ros::NodeHandle n;
+				ros::ServiceClient fk_client = n.serviceClient<arm_gazebo::FK>("FK");
+				arm_gazebo::FK fk_srv;
+
+				fk_srv.request.joint_angles = joint_angles;
+				fk_srv.request.link_lengths = link_lengths;
+
+				if (fk_client.call(fk_srv))
+				{
+					std::vector<double> end_effector_pose = fk_srv.response.actuator_pose;
+					arm_gazebo::pose _pose;
+					_pose.x = end_effector_pose[0];
+					_pose.y = end_effector_pose[1];
+					_pose.y = end_effector_pose[2];
+					ros::Rate loop_rate(10);
+					posePublisher.publish(_pose);
+					ros::spinOnce();
+				}
+				else
+				{
+					ROS_ERROR("Failed to call IK service.");
+				}
+			}
+		}
+
+	public:
+		void catchBox(std::vector<double> _pose)
+		{
+			this->updateJointAngles(_pose);
+			std::string palm_left_finger = this->model->GetJoint("palm_left_finger")->GetScopedName();
+			std::string palm_right_finger = this->model->GetJoint("palm_right_finger")->GetScopedName();
+			common::PID _pid = common::PID(10.0, 1.0, 7.0);
+			this->SetPID(palm_left_finger, _pid);
+			this->SetAngle(palm_left_finger, -1.57);
+			this->SetPID(palm_right_finger, _pid);
+			this->SetAngle(palm_right_finger, 1.57);
+		}
+
+	public:
+		void releaseBox(std::vector<double> _pose)
+		{
+			this->updateJointAngles(_pose);
+			std::string palm_left_finger = this->model->GetJoint("palm_left_finger")->GetScopedName();
+			std::string palm_right_finger = this->model->GetJoint("palm_right_finger")->GetScopedName();
+			common::PID _pid = common::PID(10.0, 5.0, 2.0);
+			this->SetPID(palm_left_finger, _pid);
+			this->SetAngle(palm_left_finger, 0.0);
+			this->SetPID(palm_right_finger, _pid);
+			this->SetAngle(palm_right_finger, 0.0);
+		}
+
+	private:
+		std::vector<double> inverseKinematics(std::vector<double> _pose)
+		{
+			ros::NodeHandle n;
+			ros::ServiceClient ik_client = n.serviceClient<arm_gazebo::IK>("IK");
+			arm_gazebo::IK ik_srv;
+
+			ik_srv.request.desired_pose = {_pose[0], _pose[1], _pose[2]};
+			if (ik_client.call(ik_srv))
+			{
+				std::vector<double> angles = ik_srv.response.joint_angles;
+				return angles;
+			}
+			else
+			{
+				ROS_ERROR("Failed to call service transform_vector");
+			}
+		}
 
 	private:
 		physics::ModelPtr model;
@@ -126,10 +266,29 @@ namespace gazebo
 	private:
 		physics::JointControllerPtr jointController;
 
+		/// \brief A node use for ROS transport
 	private:
-		event::ConnectionPtr updateConnection;
-	};
-	// Tell Gazebo about this plugin, so that Gazebo can call Load on this plugin.
-	GZ_REGISTER_MODEL_PLUGIN(ProgrammablePID)
+		std::unique_ptr<ros::NodeHandle> rosNode;
 
+		/// \brief A ROS subscriber
+	private:
+		ros::Subscriber rosSub;
+
+		/// \brief A ROS callbackqueue that helps process messages
+	private:
+		ros::CallbackQueue rosQueue;
+
+		/// \brief A thread the keeps running the rosQueue
+	private:
+		std::thread rosQueueThread;
+
+	private:
+		std::thread publisherThread;
+
+	private:
+		ros::Publisher posePublisher;
+	};
+
+	// Register this plugin with the simulator
+	GZ_REGISTER_MODEL_PLUGIN(ModelPush)
 }

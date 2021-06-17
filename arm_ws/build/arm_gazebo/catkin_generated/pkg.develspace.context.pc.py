@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include".split(';') if "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include".split(';') if "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;gazebo_ros;arm_lib".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "arm_gazebo"
-PROJECT_SPACE_DIR = "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel"
+PROJECT_SPACE_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel"
 PROJECT_VERSION = "0.0.0"

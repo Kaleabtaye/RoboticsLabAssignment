@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src
+CMAKE_SOURCE_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build
+CMAKE_BINARY_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build"
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/manifest.l"
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/msg/AnglesJoint.l"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/manifest.l"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/msg/AnglesJoint.l"
   "CMakeFiles/arm_gazebo_generate_messages_eus"
 )
 

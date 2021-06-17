@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src
+CMAKE_SOURCE_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build
+CMAKE_BINARY_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build"
 
 # Include any dependencies generated for this target.
 include arm_gazebo/CMakeFiles/arm_gazebo.dir/depend.make
@@ -58,17 +58,17 @@ include arm_gazebo/CMakeFiles/arm_gazebo.dir/progress.make
 include arm_gazebo/CMakeFiles/arm_gazebo.dir/flags.make
 
 arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.o: arm_gazebo/CMakeFiles/arm_gazebo.dir/flags.make
-arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.o: /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.o"
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arm_gazebo.dir/src/controller.cpp.o -c /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/controller.cpp
+arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.o: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.o"
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arm_gazebo.dir/src/controller.cpp.o -c "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/controller.cpp"
 
 arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arm_gazebo.dir/src/controller.cpp.i"
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/controller.cpp > CMakeFiles/arm_gazebo.dir/src/controller.cpp.i
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/controller.cpp" > CMakeFiles/arm_gazebo.dir/src/controller.cpp.i
 
 arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arm_gazebo.dir/src/controller.cpp.s"
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/controller.cpp -o CMakeFiles/arm_gazebo.dir/src/controller.cpp.s
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/src/controller.cpp" -o CMakeFiles/arm_gazebo.dir/src/controller.cpp.s
 
 # Object files for target arm_gazebo
 arm_gazebo_OBJECTS = \
@@ -77,142 +77,142 @@ arm_gazebo_OBJECTS = \
 # External object files for target arm_gazebo
 arm_gazebo_EXTERNAL_OBJECTS =
 
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.o
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: arm_gazebo/CMakeFiles/arm_gazebo.dir/build.make
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroslib.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librospack.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libtf.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libactionlib.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroscpp.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libtf2.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librostime.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so.3.6
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libdart.so.6.9.2
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libsdformat9.so.9.5.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.13.1
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroscpp.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librostime.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libtf2.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so.3.6
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so.3.6
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liblapack.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liblapack.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.2
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libccd.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libfcl.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libassimp.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.3
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.3
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.2.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.3.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-msgs5.so.5.7.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.8.0
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.13.1
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: arm_gazebo/CMakeFiles/arm_gazebo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so"
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_gazebo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arm_gazebo.dir/link.txt --verbose=$(VERBOSE)
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.o
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: arm_gazebo/CMakeFiles/arm_gazebo.dir/build.make
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroslib.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librospack.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libtf.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libactionlib.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroscpp.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libtf2.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librostime.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so.3.6
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libdart.so.6.9.2
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libsdformat9.so.9.5.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.11.1
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroscpp.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/librostime.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libtf2.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so.3.6
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so.3.6
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liblapack.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liblapack.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.2
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libccd.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libfcl.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libassimp.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.3
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.3
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.2.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.3.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-msgs5.so.5.6.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.8.0
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.11.1
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so: arm_gazebo/CMakeFiles/arm_gazebo.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library \"/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so\""
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arm_gazebo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-arm_gazebo/CMakeFiles/arm_gazebo.dir/build: /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so
+arm_gazebo/CMakeFiles/arm_gazebo.dir/build: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/lib/libarm_gazebo.so
 
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo.dir/build
 
 arm_gazebo/CMakeFiles/arm_gazebo.dir/clean:
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/arm_gazebo.dir/cmake_clean.cmake
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && $(CMAKE_COMMAND) -P CMakeFiles/arm_gazebo.dir/cmake_clean.cmake
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo.dir/clean
 
 arm_gazebo/CMakeFiles/arm_gazebo.dir/depend:
-	cd /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_gazebo /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_gazebo /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : arm_gazebo/CMakeFiles/arm_gazebo.dir/depend
 

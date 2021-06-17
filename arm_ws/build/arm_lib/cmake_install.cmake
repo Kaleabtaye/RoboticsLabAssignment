@@ -1,8 +1,8 @@
-# Install script for directory: /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib
+# Install script for directory: /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib/msg" TYPE FILE FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/msg/Angles.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib/msg" TYPE FILE FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib/msg/Angles.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib/cmake" TYPE FILE FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_lib-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib/cmake" TYPE FILE FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_lib-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include/arm_lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include/arm_lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_lib.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_lib.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib/cmake" TYPE FILE FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_lib-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib/cmake" TYPE FILE FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_lib-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib/cmake" TYPE FILE FILES
-    "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_libConfig.cmake"
-    "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_libConfig-version.cmake"
+    "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_libConfig.cmake"
+    "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_lib/catkin_generated/installspace/arm_libConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib" TYPE FILE FILES "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_lib" TYPE FILE FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib/package.xml")
 endif()
 

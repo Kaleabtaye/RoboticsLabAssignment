@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_gazebo/displayAngles"
-  "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib/arm_gazebo/displayAngles.pdb"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/arm_gazebo/displayAngles"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/arm_gazebo/displayAngles.pdb"
   "CMakeFiles/displayAngles.dir/src/displayAngles.cpp.o"
 )
 

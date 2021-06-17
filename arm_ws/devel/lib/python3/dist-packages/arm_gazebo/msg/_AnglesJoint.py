@@ -8,14 +8,14 @@ import struct
 
 
 class AnglesJoint(genpy.Message):
-  _md5sum = "e5eaaa2abf697b049f6fc9d4bce9e1e0"
+  _md5sum = "99df565d35e16998dcc56f1295c43447"
   _type = "arm_gazebo/AnglesJoint"
   _has_header = False  # flag to mark the presence of a Header object
-  _full_text = """float32 jointA
-float32 jointB
-float32 jointC
-float32 jointD"""
-  __slots__ = ['jointA','jointB','jointC','jointD']
+  _full_text = """float32 joint1
+float32 joint2
+float32 joint3
+float32 joint4"""
+  __slots__ = ['joint1','joint2','joint3','joint4']
   _slot_types = ['float32','float32','float32','float32']
 
   def __init__(self, *args, **kwds):
@@ -26,7 +26,7 @@ float32 jointD"""
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       jointA,jointB,jointC,jointD
+       joint1,joint2,joint3,joint4
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -35,19 +35,19 @@ float32 jointD"""
     if args or kwds:
       super(AnglesJoint, self).__init__(*args, **kwds)
       # message fields cannot be None, assign default values for those that are
-      if self.jointA is None:
-        self.jointA = 0.
-      if self.jointB is None:
-        self.jointB = 0.
-      if self.jointC is None:
-        self.jointC = 0.
-      if self.jointD is None:
-        self.jointD = 0.
+      if self.joint1 is None:
+        self.joint1 = 0.
+      if self.joint2 is None:
+        self.joint2 = 0.
+      if self.joint3 is None:
+        self.joint3 = 0.
+      if self.joint4 is None:
+        self.joint4 = 0.
     else:
-      self.jointA = 0.
-      self.jointB = 0.
-      self.jointC = 0.
-      self.jointD = 0.
+      self.joint1 = 0.
+      self.joint2 = 0.
+      self.joint3 = 0.
+      self.joint4 = 0.
 
   def _get_types(self):
     """
@@ -62,7 +62,7 @@ float32 jointD"""
     """
     try:
       _x = self
-      buff.write(_get_struct_4f().pack(_x.jointA, _x.jointB, _x.jointC, _x.jointD))
+      buff.write(_get_struct_4f().pack(_x.joint1, _x.joint2, _x.joint3, _x.joint4))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -71,14 +71,13 @@ float32 jointD"""
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       _x = self
       start = end
       end += 16
-      (_x.jointA, _x.jointB, _x.jointC, _x.jointD,) = _get_struct_4f().unpack(str[start:end])
+      (_x.joint1, _x.joint2, _x.joint3, _x.joint4,) = _get_struct_4f().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -92,7 +91,7 @@ float32 jointD"""
     """
     try:
       _x = self
-      buff.write(_get_struct_4f().pack(_x.jointA, _x.jointB, _x.jointC, _x.jointD))
+      buff.write(_get_struct_4f().pack(_x.joint1, _x.joint2, _x.joint3, _x.joint4))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -102,14 +101,13 @@ float32 jointD"""
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       _x = self
       start = end
       end += 16
-      (_x.jointA, _x.jointB, _x.jointC, _x.jointD,) = _get_struct_4f().unpack(str[start:end])
+      (_x.joint1, _x.joint2, _x.joint3, _x.joint4,) = _get_struct_4f().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill

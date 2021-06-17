@@ -1,4 +1,4 @@
-prefix=/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/install
+prefix=/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/install
 
 Name: arm_gazebo
 Description: Description of arm_gazebo

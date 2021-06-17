@@ -14,7 +14,6 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   gazebo_ros
   message_generation
-
 )
 
 find_package(gazebo REQUIRED)
@@ -64,17 +63,17 @@ target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES} ${
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-add_message_files(
-  FILES
-  AnglesJoint.msg
-)
+ add_message_files(
+   FILES
+   pose.msg
+ )
 
-## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+# Generate services in the 'srv' folder
+ add_service_files(
+   FILES
+   FK.srv
+   IK.srv
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -87,7 +86,7 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
-)
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -132,10 +131,10 @@ DEPENDS roscpp gazebo_ros arm_lib
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(
-# include
-  ${catkin_INCLUDE_DIRS}
-)
+# include_directories(
+# # include
+#   ${catkin_INCLUDE_DIRS}
+# )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -150,8 +149,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(displayAngles src/displayAngles.cpp)
-
+# add_executable(${PROJECT_NAME}_node src/arm_gazebo_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -161,12 +159,12 @@ add_executable(displayAngles src/displayAngles.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(displayAngles arm_gazebo_generate_messages_cpp)
+# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(displayAngles
-  ${catkin_LIBRARIES}
-)
+# target_link_libraries(${PROJECT_NAME}_node
+#   ${catkin_LIBRARIES}
+# )
 
 #############
 ## Install ##
@@ -222,3 +220,11 @@ target_link_libraries(displayAngles
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+catkin_install_python(PROGRAMS scripts/inversekinematics_server.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+catkin_install_python(PROGRAMS scripts/forwardkinematics_server.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)

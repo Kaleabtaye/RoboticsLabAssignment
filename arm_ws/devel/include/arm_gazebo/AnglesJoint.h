@@ -24,32 +24,32 @@ struct AnglesJoint_
   typedef AnglesJoint_<ContainerAllocator> Type;
 
   AnglesJoint_()
-    : jointA(0.0)
-    , jointB(0.0)
-    , jointC(0.0)
-    , jointD(0.0)  {
+    : joint1(0.0)
+    , joint2(0.0)
+    , joint3(0.0)
+    , joint4(0.0)  {
     }
   AnglesJoint_(const ContainerAllocator& _alloc)
-    : jointA(0.0)
-    , jointB(0.0)
-    , jointC(0.0)
-    , jointD(0.0)  {
+    : joint1(0.0)
+    , joint2(0.0)
+    , joint3(0.0)
+    , joint4(0.0)  {
   (void)_alloc;
     }
 
 
 
-   typedef float _jointA_type;
-  _jointA_type jointA;
+   typedef float _joint1_type;
+  _joint1_type joint1;
 
-   typedef float _jointB_type;
-  _jointB_type jointB;
+   typedef float _joint2_type;
+  _joint2_type joint2;
 
-   typedef float _jointC_type;
-  _jointC_type jointC;
+   typedef float _joint3_type;
+  _joint3_type joint3;
 
-   typedef float _jointD_type;
-  _jointD_type jointD;
+   typedef float _joint4_type;
+  _joint4_type joint4;
 
 
 
@@ -80,10 +80,10 @@ return s;
 template<typename ContainerAllocator1, typename ContainerAllocator2>
 bool operator==(const ::arm_gazebo::AnglesJoint_<ContainerAllocator1> & lhs, const ::arm_gazebo::AnglesJoint_<ContainerAllocator2> & rhs)
 {
-  return lhs.jointA == rhs.jointA &&
-    lhs.jointB == rhs.jointB &&
-    lhs.jointC == rhs.jointC &&
-    lhs.jointD == rhs.jointD;
+  return lhs.joint1 == rhs.joint1 &&
+    lhs.joint2 == rhs.joint2 &&
+    lhs.joint3 == rhs.joint3 &&
+    lhs.joint4 == rhs.joint4;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -140,12 +140,12 @@ struct MD5Sum< ::arm_gazebo::AnglesJoint_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "e5eaaa2abf697b049f6fc9d4bce9e1e0";
+    return "99df565d35e16998dcc56f1295c43447";
   }
 
   static const char* value(const ::arm_gazebo::AnglesJoint_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xe5eaaa2abf697b04ULL;
-  static const uint64_t static_value2 = 0x9f6fc9d4bce9e1e0ULL;
+  static const uint64_t static_value1 = 0x99df565d35e16998ULL;
+  static const uint64_t static_value2 = 0xdcc56f1295c43447ULL;
 };
 
 template<class ContainerAllocator>
@@ -164,10 +164,10 @@ struct Definition< ::arm_gazebo::AnglesJoint_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "float32 jointA\n"
-"float32 jointB\n"
-"float32 jointC\n"
-"float32 jointD\n"
+    return "float32 joint1\n"
+"float32 joint2\n"
+"float32 joint3\n"
+"float32 joint4\n"
 ;
   }
 
@@ -186,10 +186,10 @@ namespace serialization
   {
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
-      stream.next(m.jointA);
-      stream.next(m.jointB);
-      stream.next(m.jointC);
-      stream.next(m.jointD);
+      stream.next(m.joint1);
+      stream.next(m.joint2);
+      stream.next(m.joint3);
+      stream.next(m.joint4);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -208,14 +208,14 @@ struct Printer< ::arm_gazebo::AnglesJoint_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::arm_gazebo::AnglesJoint_<ContainerAllocator>& v)
   {
-    s << indent << "jointA: ";
-    Printer<float>::stream(s, indent + "  ", v.jointA);
-    s << indent << "jointB: ";
-    Printer<float>::stream(s, indent + "  ", v.jointB);
-    s << indent << "jointC: ";
-    Printer<float>::stream(s, indent + "  ", v.jointC);
-    s << indent << "jointD: ";
-    Printer<float>::stream(s, indent + "  ", v.jointD);
+    s << indent << "joint1: ";
+    Printer<float>::stream(s, indent + "  ", v.joint1);
+    s << indent << "joint2: ";
+    Printer<float>::stream(s, indent + "  ", v.joint2);
+    s << indent << "joint3: ";
+    Printer<float>::stream(s, indent + "  ", v.joint3);
+    s << indent << "joint4: ";
+    Printer<float>::stream(s, indent + "  ", v.joint4);
   }
 };
 

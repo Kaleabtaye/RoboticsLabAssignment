@@ -16,7 +16,7 @@ namespace gazebo
       this->model = _parent;
       this->jointController = this->model->GetJointController();
       ros::NodeHandle n;
-      this->jointAnglePublisher = n.advertise<arm_gazebo::AnglesJoint>("/publishAngle", 1000);
+      this->jointAnglePublisher = n.advertise<arm_gazebo::AnglesJoint>("/publishJointAngle", 1000);
 
       if (!ros::isInitialized())
       {
@@ -37,7 +37,7 @@ namespace gazebo
   public:
     void publishJointAngles()
     {
-      
+      // ROS_INFO("PUBLISHER JOINT ANGLE");
       double a1 = physics::JointState(this->model->GetJoint("chasis_arm1_joint")).Position(0);
 
       double a2 = physics::JointState(this->model->GetJoint("arm1_arm2_joint")).Position(0);
@@ -51,21 +51,21 @@ namespace gazebo
       a3 = a3 * 180.0 / M_PI;
       a4 = a4 * 180.0 / M_PI;
 
-      arm_gazebo::AnglesJoint anglesJoint;
+      arm_gazebo::AnglesJoint jointAngles;
 
-    anglesJoint.jointA = a1;
-    anglesJoint.jointB = a2;
-    anglesJoint.jointC = a3;
-    anglesJoint.jointD = a3;
+      jointAngles.joint1 = a1;
+      jointAngles.joint2 = a2;
+      jointAngles.joint3 = a3;
+      jointAngles.joint4 = a3;
 
       ros::Rate loop_rate(10);
-      ROS_INFO("MSG[JOINT 1 Angle]: %f", anglesJoint.jointA);
-      ROS_INFO("MSG[JOINT 2 Angle]: %f",  anglesJoint.jointB);
-      ROS_INFO("MSG[JOINT 3 Angle]: %f",  anglesJoint.jointC);
-      ROS_INFO("MSG[JOINT 4 Angle]: %f",  anglesJoint.jointD);
+      ROS_INFO("MSG[JOINT 1]: %f", jointAngles.joint1);
+      ROS_INFO("MSG[JOINT 2]: %f", jointAngles.joint2);
+      ROS_INFO("MSG[JOINT 3]: %f", jointAngles.joint3);
+      ROS_INFO("MSG[JOINT 4]: %f", jointAngles.joint4);
 
       // PUBLISH
-      jointAnglePublisher.publish(anglesJoint);
+      jointAnglePublisher.publish(jointAngles);
     }
 
     // Pointer to the model

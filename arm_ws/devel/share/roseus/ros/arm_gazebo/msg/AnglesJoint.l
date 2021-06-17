@@ -14,85 +14,85 @@
 
 (defclass arm_gazebo::AnglesJoint
   :super ros::object
-  :slots (_jointA _jointB _jointC _jointD ))
+  :slots (_joint1 _joint2 _joint3 _joint4 ))
 
 (defmethod arm_gazebo::AnglesJoint
   (:init
    (&key
-    ((:jointA __jointA) 0.0)
-    ((:jointB __jointB) 0.0)
-    ((:jointC __jointC) 0.0)
-    ((:jointD __jointD) 0.0)
+    ((:joint1 __joint1) 0.0)
+    ((:joint2 __joint2) 0.0)
+    ((:joint3 __joint3) 0.0)
+    ((:joint4 __joint4) 0.0)
     )
    (send-super :init)
-   (setq _jointA (float __jointA))
-   (setq _jointB (float __jointB))
-   (setq _jointC (float __jointC))
-   (setq _jointD (float __jointD))
+   (setq _joint1 (float __joint1))
+   (setq _joint2 (float __joint2))
+   (setq _joint3 (float __joint3))
+   (setq _joint4 (float __joint4))
    self)
-  (:jointA
-   (&optional __jointA)
-   (if __jointA (setq _jointA __jointA)) _jointA)
-  (:jointB
-   (&optional __jointB)
-   (if __jointB (setq _jointB __jointB)) _jointB)
-  (:jointC
-   (&optional __jointC)
-   (if __jointC (setq _jointC __jointC)) _jointC)
-  (:jointD
-   (&optional __jointD)
-   (if __jointD (setq _jointD __jointD)) _jointD)
+  (:joint1
+   (&optional __joint1)
+   (if __joint1 (setq _joint1 __joint1)) _joint1)
+  (:joint2
+   (&optional __joint2)
+   (if __joint2 (setq _joint2 __joint2)) _joint2)
+  (:joint3
+   (&optional __joint3)
+   (if __joint3 (setq _joint3 __joint3)) _joint3)
+  (:joint4
+   (&optional __joint4)
+   (if __joint4 (setq _joint4 __joint4)) _joint4)
   (:serialization-length
    ()
    (+
-    ;; float32 _jointA
+    ;; float32 _joint1
     4
-    ;; float32 _jointB
+    ;; float32 _joint2
     4
-    ;; float32 _jointC
+    ;; float32 _joint3
     4
-    ;; float32 _jointD
+    ;; float32 _joint4
     4
     ))
   (:serialize
    (&optional strm)
    (let ((s (if strm strm
               (make-string-output-stream (send self :serialization-length)))))
-     ;; float32 _jointA
-       (sys::poke _jointA (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
-     ;; float32 _jointB
-       (sys::poke _jointB (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
-     ;; float32 _jointC
-       (sys::poke _jointC (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
-     ;; float32 _jointD
-       (sys::poke _jointD (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; float32 _joint1
+       (sys::poke _joint1 (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; float32 _joint2
+       (sys::poke _joint2 (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; float32 _joint3
+       (sys::poke _joint3 (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; float32 _joint4
+       (sys::poke _joint4 (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
      ;;
      (if (null strm) (get-output-stream-string s))))
   (:deserialize
    (buf &optional (ptr- 0))
-   ;; float32 _jointA
-     (setq _jointA (sys::peek buf ptr- :float)) (incf ptr- 4)
-   ;; float32 _jointB
-     (setq _jointB (sys::peek buf ptr- :float)) (incf ptr- 4)
-   ;; float32 _jointC
-     (setq _jointC (sys::peek buf ptr- :float)) (incf ptr- 4)
-   ;; float32 _jointD
-     (setq _jointD (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; float32 _joint1
+     (setq _joint1 (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; float32 _joint2
+     (setq _joint2 (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; float32 _joint3
+     (setq _joint3 (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; float32 _joint4
+     (setq _joint4 (sys::peek buf ptr- :float)) (incf ptr- 4)
    ;;
    self)
   )
 
-(setf (get arm_gazebo::AnglesJoint :md5sum-) "e5eaaa2abf697b049f6fc9d4bce9e1e0")
+(setf (get arm_gazebo::AnglesJoint :md5sum-) "99df565d35e16998dcc56f1295c43447")
 (setf (get arm_gazebo::AnglesJoint :datatype-) "arm_gazebo/AnglesJoint")
 (setf (get arm_gazebo::AnglesJoint :definition-)
-      "float32 jointA
-float32 jointB
-float32 jointC
-float32 jointD
+      "float32 joint1
+float32 joint2
+float32 joint3
+float32 joint4
 ")
 
 
 
-(provide :arm_gazebo/AnglesJoint "e5eaaa2abf697b049f6fc9d4bce9e1e0")
+(provide :arm_gazebo/AnglesJoint "99df565d35e16998dcc56f1295c43447")
 
 

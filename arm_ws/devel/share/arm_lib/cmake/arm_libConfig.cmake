@@ -67,14 +67,14 @@ set(arm_lib_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(arm_lib_SOURCE_PREFIX /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib)
-  set(arm_lib_DEVEL_PREFIX /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel)
+  set(arm_lib_SOURCE_PREFIX /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib)
+  set(arm_lib_DEVEL_PREFIX /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel)
   set(arm_lib_INSTALL_PREFIX "")
   set(arm_lib_PREFIX ${arm_lib_DEVEL_PREFIX})
 else()
   set(arm_lib_SOURCE_PREFIX "")
   set(arm_lib_DEVEL_PREFIX "")
-  set(arm_lib_INSTALL_PREFIX /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/install)
+  set(arm_lib_INSTALL_PREFIX /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/install)
   set(arm_lib_PREFIX ${arm_lib_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(arm_lib_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include " STREQUAL " ")
+if(NOT "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include " STREQUAL " ")
   set(arm_lib_INCLUDE_DIRS "")
-  set(_include_dirs "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include")
+  set(_include_dirs "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/include " STRE
         message(FATAL_ERROR "Project 'arm_lib' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'arm_lib' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/src/arm_lib/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'arm_lib' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_lib/${idir}'.  ${_report}")
     endif()
     _list_append_unique(arm_lib_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kaleab/Downloads/RoboticsLabAssignment/arm_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(arm_lib_LIBRARIES ${arm_lib_LIBRARIES})
 
   _list_append_unique(arm_lib_LIBRARY_DIRS ${${arm_lib_dep}_LIBRARY_DIRS})
-  _list_append_deduplicate(arm_lib_EXPORTED_TARGETS ${${arm_lib_dep}_EXPORTED_TARGETS})
+  list(APPEND arm_lib_EXPORTED_TARGETS ${${arm_lib_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "arm_lib-msg-extras.cmake")
