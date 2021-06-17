@@ -79,18 +79,18 @@
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_lib/CMakeFiles/arm_lib_gennodejs.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_lib/CMakeFiles/edit_cache.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_lib/CMakeFiles/arm_lib_genpy.dir
-/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/install/strip.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/install/local.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/install.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/rebuild_cache.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/test.dir
-/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/displayAngles.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/list_install_components.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_gennodejs.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_genlisp.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir
@@ -98,6 +98,8 @@
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/install/strip.dir
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_pose.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir
@@ -109,7 +111,6 @@
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
-/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/tf_generate_messages_eus.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir
@@ -128,7 +129,6 @@
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
-/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp.dir
@@ -150,5 +150,6 @@
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir
 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_generate_messages.dir
-/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir
-/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_FK.dir
+/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_IK.dir

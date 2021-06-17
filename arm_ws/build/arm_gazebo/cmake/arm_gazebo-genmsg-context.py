@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg"
-services_str = ""
+messages_str = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg"
+services_str = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv;/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv"
 pkg_name = "arm_gazebo"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

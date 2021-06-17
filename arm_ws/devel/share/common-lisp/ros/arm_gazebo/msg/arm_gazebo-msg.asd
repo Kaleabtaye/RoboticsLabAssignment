@@ -6,4 +6,6 @@
   :components ((:file "_package")
     (:file "AnglesJoint" :depends-on ("_package_AnglesJoint"))
     (:file "_package_AnglesJoint" :depends-on ("_package"))
+    (:file "pose" :depends-on ("_package_pose"))
+    (:file "_package_pose" :depends-on ("_package"))
   ))

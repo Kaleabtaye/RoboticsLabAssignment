@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignmen
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -124,6 +112,18 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -166,21 +166,6 @@ preinstall/fast:
 depend:
 	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-# Convenience name for target.
-arm_gazebo/CMakeFiles/displayAngles.dir/rule:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/displayAngles.dir/rule
-.PHONY : arm_gazebo/CMakeFiles/displayAngles.dir/rule
-
-# Convenience name for target.
-displayAngles: arm_gazebo/CMakeFiles/displayAngles.dir/rule
-
-.PHONY : displayAngles
-
-# fast build rule for target.
-displayAngles/fast:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/displayAngles.dir/build.make arm_gazebo/CMakeFiles/displayAngles.dir/build
-.PHONY : displayAngles/fast
 
 # Convenience name for target.
 arm_gazebo/CMakeFiles/arm_gazebo_genpy.dir/rule:
@@ -256,6 +241,36 @@ arm_gazebo_generate_messages_lisp: arm_gazebo/CMakeFiles/arm_gazebo_generate_mes
 arm_gazebo_generate_messages_lisp/fast:
 	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp.dir/build
 .PHONY : arm_gazebo_generate_messages_lisp/fast
+
+# Convenience name for target.
+arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule
+.PHONY : arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule
+
+# Convenience name for target.
+arm_gazebo_geneus: arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule
+
+.PHONY : arm_gazebo_geneus
+
+# fast build rule for target.
+arm_gazebo_geneus/fast:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/build
+.PHONY : arm_gazebo_geneus/fast
+
+# Convenience name for target.
+arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule
+.PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+arm_gazebo_generate_messages_eus: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule
+
+.PHONY : arm_gazebo_generate_messages_eus
+
+# fast build rule for target.
+arm_gazebo_generate_messages_eus/fast:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/build
+.PHONY : arm_gazebo_generate_messages_eus/fast
 
 # Convenience name for target.
 arm_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
@@ -361,6 +376,21 @@ actionlib_generate_messages_lisp: arm_gazebo/CMakeFiles/actionlib_generate_messa
 actionlib_generate_messages_lisp/fast:
 	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
+
+# Convenience name for target.
+arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_pose.dir/rule:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_pose.dir/rule
+.PHONY : arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_pose.dir/rule
+
+# Convenience name for target.
+_arm_gazebo_generate_messages_check_deps_pose: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_pose.dir/rule
+
+.PHONY : _arm_gazebo_generate_messages_check_deps_pose
+
+# fast build rule for target.
+_arm_gazebo_generate_messages_check_deps_pose/fast:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_pose.dir/build.make arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_pose.dir/build
+.PHONY : _arm_gazebo_generate_messages_check_deps_pose/fast
 
 # Convenience name for target.
 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_py.dir/rule:
@@ -511,21 +541,6 @@ sensor_msgs_generate_messages_lisp: arm_gazebo/CMakeFiles/sensor_msgs_generate_m
 sensor_msgs_generate_messages_lisp/fast:
 	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/rule:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/rule
-.PHONY : arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/rule
-
-# Convenience name for target.
-_arm_gazebo_generate_messages_check_deps_AnglesJoint: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/rule
-
-.PHONY : _arm_gazebo_generate_messages_check_deps_AnglesJoint
-
-# fast build rule for target.
-_arm_gazebo_generate_messages_check_deps_AnglesJoint/fast:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/build.make arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint.dir/build
-.PHONY : _arm_gazebo_generate_messages_check_deps_AnglesJoint/fast
 
 # Convenience name for target.
 arm_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
@@ -796,21 +811,6 @@ dynamic_reconfigure_generate_messages_lisp: arm_gazebo/CMakeFiles/dynamic_reconf
 dynamic_reconfigure_generate_messages_lisp/fast:
 	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make arm_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-# Convenience name for target.
-arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-.PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_nodejs: arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_srvs_generate_messages_nodejs
-
-# fast build rule for target.
-std_srvs_generate_messages_nodejs/fast:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-.PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 arm_gazebo/CMakeFiles/arm_gazebo.dir/rule:
@@ -1128,34 +1128,49 @@ arm_gazebo_generate_messages/fast:
 .PHONY : arm_gazebo_generate_messages/fast
 
 # Convenience name for target.
-arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule
-.PHONY : arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule
+arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+.PHONY : arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-arm_gazebo_generate_messages_eus: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/rule
+std_srvs_generate_messages_nodejs: arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
-.PHONY : arm_gazebo_generate_messages_eus
+.PHONY : std_srvs_generate_messages_nodejs
 
 # fast build rule for target.
-arm_gazebo_generate_messages_eus/fast:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus.dir/build
-.PHONY : arm_gazebo_generate_messages_eus/fast
+std_srvs_generate_messages_nodejs/fast:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make arm_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule
-.PHONY : arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule
+arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_FK.dir/rule:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_FK.dir/rule
+.PHONY : arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_FK.dir/rule
 
 # Convenience name for target.
-arm_gazebo_geneus: arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/rule
+_arm_gazebo_generate_messages_check_deps_FK: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_FK.dir/rule
 
-.PHONY : arm_gazebo_geneus
+.PHONY : _arm_gazebo_generate_messages_check_deps_FK
 
 # fast build rule for target.
-arm_gazebo_geneus/fast:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo_geneus.dir/build
-.PHONY : arm_gazebo_geneus/fast
+_arm_gazebo_generate_messages_check_deps_FK/fast:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_FK.dir/build.make arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_FK.dir/build
+.PHONY : _arm_gazebo_generate_messages_check_deps_FK/fast
+
+# Convenience name for target.
+arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_IK.dir/rule:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_IK.dir/rule
+.PHONY : arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_IK.dir/rule
+
+# Convenience name for target.
+_arm_gazebo_generate_messages_check_deps_IK: arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_IK.dir/rule
+
+.PHONY : _arm_gazebo_generate_messages_check_deps_IK
+
+# fast build rule for target.
+_arm_gazebo_generate_messages_check_deps_IK/fast:
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_IK.dir/build.make arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_IK.dir/build
+.PHONY : _arm_gazebo_generate_messages_check_deps_IK/fast
 
 src/controller.o: src/controller.cpp.o
 
@@ -1184,51 +1199,24 @@ src/controller.cpp.s:
 	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/arm_gazebo.dir/build.make arm_gazebo/CMakeFiles/arm_gazebo.dir/src/controller.cpp.s
 .PHONY : src/controller.cpp.s
 
-src/displayAngles.o: src/displayAngles.cpp.o
-
-.PHONY : src/displayAngles.o
-
-# target to build an object file
-src/displayAngles.cpp.o:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/displayAngles.dir/build.make arm_gazebo/CMakeFiles/displayAngles.dir/src/displayAngles.cpp.o
-.PHONY : src/displayAngles.cpp.o
-
-src/displayAngles.i: src/displayAngles.cpp.i
-
-.PHONY : src/displayAngles.i
-
-# target to preprocess a source file
-src/displayAngles.cpp.i:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/displayAngles.dir/build.make arm_gazebo/CMakeFiles/displayAngles.dir/src/displayAngles.cpp.i
-.PHONY : src/displayAngles.cpp.i
-
-src/displayAngles.s: src/displayAngles.cpp.s
-
-.PHONY : src/displayAngles.s
-
-# target to generate assembly for a file
-src/displayAngles.cpp.s:
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build" && $(MAKE) -f arm_gazebo/CMakeFiles/displayAngles.dir/build.make arm_gazebo/CMakeFiles/displayAngles.dir/src/displayAngles.cpp.s
-.PHONY : src/displayAngles.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... displayAngles"
 	@echo "... list_install_components"
 	@echo "... arm_gazebo_genpy"
 	@echo "... arm_gazebo_gennodejs"
 	@echo "... arm_gazebo_generate_messages_nodejs"
 	@echo "... arm_gazebo_genlisp"
 	@echo "... arm_gazebo_generate_messages_lisp"
+	@echo "... arm_gazebo_geneus"
+	@echo "... arm_gazebo_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... gazebo_msgs_generate_messages_nodejs"
@@ -1236,6 +1224,8 @@ help:
 	@echo "... trajectory_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_generate_messages_lisp"
+	@echo "... install/strip"
+	@echo "... _arm_gazebo_generate_messages_check_deps_pose"
 	@echo "... arm_gazebo_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... tf_generate_messages_nodejs"
@@ -1247,7 +1237,6 @@ help:
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... _arm_gazebo_generate_messages_check_deps_AnglesJoint"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... tf_generate_messages_eus"
 	@echo "... gazebo_msgs_generate_messages_py"
@@ -1266,7 +1255,6 @@ help:
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... arm_gazebo"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... arm_gazebo_generate_messages_cpp"
@@ -1288,14 +1276,12 @@ help:
 	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... arm_gazebo_generate_messages"
-	@echo "... arm_gazebo_generate_messages_eus"
-	@echo "... arm_gazebo_geneus"
+	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... _arm_gazebo_generate_messages_check_deps_FK"
+	@echo "... _arm_gazebo_generate_messages_check_deps_IK"
 	@echo "... src/controller.o"
 	@echo "... src/controller.i"
 	@echo "... src/controller.s"
-	@echo "... src/displayAngles.o"
-	@echo "... src/displayAngles.i"
-	@echo "... src/displayAngles.s"
 .PHONY : help
 
 

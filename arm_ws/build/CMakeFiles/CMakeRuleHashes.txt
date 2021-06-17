@@ -1,20 +1,38 @@
 # Hashes of file build rules.
 6baf966456b26e5d2efc2b816d4d9878 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include/arm_gazebo/AnglesJoint.h
+eeaade19139e0c4a0bc04f9b555a40ed /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include/arm_gazebo/FK.h
+171fc80d61d698d0326624e43f2caae3 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include/arm_gazebo/IK.h
+44b77a22acfda4fff7134102abb845ae /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include/arm_gazebo/pose.h
 0cdf9c020e560349a58b51f78de2b812 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/include/arm_lib/Angles.h
 58d2d8ad01350e58ad67ceea233be55d /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_gazebo/msg/_AnglesJoint.py
 cd67995084fb0200126aa159e7c7c3ee /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_gazebo/msg/__init__.py
+1b3018c1cb4e08854a3b6c2028d76b2f /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_gazebo/msg/_pose.py
+50805e56f145acbeba1d8eadf4dd36e6 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_gazebo/srv/_FK.py
+e0c742408f61b296cd42326401b2f110 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_gazebo/srv/_IK.py
+15cf746280fd2acac49a5cbefbf9c17d /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_gazebo/srv/__init__.py
 e26a213cfa8c44838f817a994786587b /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib/msg/_Angles.py
 c20190bf7589f91123f84b95d23fc3d7 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/lib/python3/dist-packages/arm_lib/msg/__init__.py
 5d6b972b8a23b9f2f892cf8fbfbd5492 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/msg/AnglesJoint.lisp
+3866cdadb3301a003ea696c6e30ef9e2 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/msg/pose.lisp
+0183f7e0aa1d9ac030762c9da37af24b /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/srv/FK.lisp
+7907559eafad16710c03b372034c6e78 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/srv/IK.lisp
 69ffb56da44649950e10515259f0558a /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_lib/msg/Angles.lisp
 79b93aaa1eed4e0f933ae96cb377e106 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/AnglesJoint.js
+a115db8686f489fcc32b8562586dc7ed /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/pose.js
+4716714b94520645b26986ecc3b0504f /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/FK.js
+17a6950aa50d903747aaa2b984a189a4 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/IK.js
 534ca9fb57908844d7560c2febb3f8d1 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_lib/msg/Angles.js
 77fde2b11e07368983b26a58d7e2443c /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/manifest.l
 23d7b9543dff8d160d76b9e41b942dee /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/msg/AnglesJoint.l
+09941cb6b5fd22596faeb1cab4213155 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/msg/pose.l
+646cb568b3c10ee10b35e127c3d43385 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/srv/FK.l
+073f80803bf5113c240c8d323e28380b /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/srv/IK.l
 c409a7f3827647224885da42ce9613a8 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_lib/manifest.l
 346e2295f4d1b8bd968b9bc52723a1b6 /home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_lib/msg/Angles.l
 e90b7f4c1a72ec0d109315b350193a95 CMakeFiles/clean_test_results
-a55aa6afe127b977596b2bcd9b4c8030 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_AnglesJoint
+46db600f0ff13edd0eea418b95d3c49c arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_FK
+b8b4cf7d454bbb6ff0edecb18c2dc077 arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_IK
+8b0c369d92ed8e1177e30e9ba4db6cdd arm_gazebo/CMakeFiles/_arm_gazebo_generate_messages_check_deps_pose
 d0d5b6cf9b9ecadc1179fab2fe515043 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_cpp
 d0d5b6cf9b9ecadc1179fab2fe515043 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_eus
 d0d5b6cf9b9ecadc1179fab2fe515043 arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_lisp

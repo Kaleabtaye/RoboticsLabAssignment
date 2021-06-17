@@ -38,7 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_gazebo/msg" TYPE FILE FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_gazebo/msg" TYPE FILE FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_gazebo/srv" TYPE FILE FILES
+    "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv"
+    "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,5 +93,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_gazebo" TYPE FILE FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/package.xml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arm_gazebo" TYPE PROGRAM FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/catkin_generated/installspace/inversekinematics_server.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arm_gazebo" TYPE PROGRAM FILES "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo/catkin_generated/installspace/forwardkinematics_server.py")
 endif()
 

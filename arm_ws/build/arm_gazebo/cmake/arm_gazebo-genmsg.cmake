@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "arm_gazebo: 1 messages, 0 services")
+message(STATUS "arm_gazebo: 1 messages, 2 services")
 
 set(MSG_I_FLAGS "-Iarm_gazebo:/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
@@ -17,9 +17,19 @@ add_custom_target(arm_gazebo_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg" NAME_WE)
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg" NAME_WE)
 add_custom_target(_arm_gazebo_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "arm_gazebo" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "arm_gazebo" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg" ""
+)
+
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv" NAME_WE)
+add_custom_target(_arm_gazebo_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "arm_gazebo" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv" ""
+)
+
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv" NAME_WE)
+add_custom_target(_arm_gazebo_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "arm_gazebo" "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv" ""
 )
 
 #
@@ -29,13 +39,25 @@ add_custom_target(_arm_gazebo_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(arm_gazebo
-  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/arm_gazebo
 )
 
 ### Generating Services
+_generate_srv_cpp(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/arm_gazebo
+)
+_generate_srv_cpp(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/arm_gazebo
+)
 
 ### Generating Module File
 _generate_module_cpp(arm_gazebo
@@ -49,7 +71,11 @@ add_custom_target(arm_gazebo_generate_messages_cpp
 add_dependencies(arm_gazebo_generate_messages arm_gazebo_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg" NAME_WE)
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_cpp _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_cpp _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv" NAME_WE)
 add_dependencies(arm_gazebo_generate_messages_cpp _arm_gazebo_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,13 +88,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS arm_gazebo_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(arm_gazebo
-  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/arm_gazebo
 )
 
 ### Generating Services
+_generate_srv_eus(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/arm_gazebo
+)
+_generate_srv_eus(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/arm_gazebo
+)
 
 ### Generating Module File
 _generate_module_eus(arm_gazebo
@@ -82,7 +120,11 @@ add_custom_target(arm_gazebo_generate_messages_eus
 add_dependencies(arm_gazebo_generate_messages arm_gazebo_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg" NAME_WE)
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_eus _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_eus _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv" NAME_WE)
 add_dependencies(arm_gazebo_generate_messages_eus _arm_gazebo_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,13 +137,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS arm_gazebo_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(arm_gazebo
-  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/arm_gazebo
 )
 
 ### Generating Services
+_generate_srv_lisp(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/arm_gazebo
+)
+_generate_srv_lisp(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/arm_gazebo
+)
 
 ### Generating Module File
 _generate_module_lisp(arm_gazebo
@@ -115,7 +169,11 @@ add_custom_target(arm_gazebo_generate_messages_lisp
 add_dependencies(arm_gazebo_generate_messages arm_gazebo_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg" NAME_WE)
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_lisp _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_lisp _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv" NAME_WE)
 add_dependencies(arm_gazebo_generate_messages_lisp _arm_gazebo_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,13 +186,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS arm_gazebo_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(arm_gazebo
-  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/arm_gazebo
 )
 
 ### Generating Services
+_generate_srv_nodejs(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/arm_gazebo
+)
+_generate_srv_nodejs(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/arm_gazebo
+)
 
 ### Generating Module File
 _generate_module_nodejs(arm_gazebo
@@ -148,7 +218,11 @@ add_custom_target(arm_gazebo_generate_messages_nodejs
 add_dependencies(arm_gazebo_generate_messages arm_gazebo_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg" NAME_WE)
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_nodejs _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_nodejs _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv" NAME_WE)
 add_dependencies(arm_gazebo_generate_messages_nodejs _arm_gazebo_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,13 +235,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS arm_gazebo_generate_messages_nodejs
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(arm_gazebo
-  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/arm_gazebo
 )
 
 ### Generating Services
+_generate_srv_py(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/arm_gazebo
+)
+_generate_srv_py(arm_gazebo
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/arm_gazebo
+)
 
 ### Generating Module File
 _generate_module_py(arm_gazebo
@@ -181,7 +267,11 @@ add_custom_target(arm_gazebo_generate_messages_py
 add_dependencies(arm_gazebo_generate_messages arm_gazebo_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg" NAME_WE)
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_py _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv" NAME_WE)
+add_dependencies(arm_gazebo_generate_messages_py _arm_gazebo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv" NAME_WE)
 add_dependencies(arm_gazebo_generate_messages_py _arm_gazebo_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

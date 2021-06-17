@@ -3,5 +3,7 @@
   (:export
    "<ANGLESJOINT>"
    "ANGLESJOINT"
+   "<POSE>"
+   "POSE"
   ))
 

@@ -53,16 +53,30 @@ CMAKE_BINARY_DIR = "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignmen
 # Include the progress variables for this target.
 include arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/progress.make
 
-arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/AnglesJoint.js
+arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/pose.js
+arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/FK.js
+arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/IK.js
 
 
-/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/AnglesJoint.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/AnglesJoint.js: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from arm_gazebo/AnglesJoint.msg"
-	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/AnglesJoint.msg -Iarm_gazebo:/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p arm_gazebo -o /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/pose.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/pose.js: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from arm_gazebo/pose.msg"
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg/pose.msg -Iarm_gazebo:/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p arm_gazebo -o /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg
+
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/FK.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/FK.js: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from arm_gazebo/FK.srv"
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/FK.srv -Iarm_gazebo:/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p arm_gazebo -o /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv
+
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/IK.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/IK.js: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from arm_gazebo/IK.srv"
+	cd "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/build/arm_gazebo" && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/srv/IK.srv -Iarm_gazebo:/home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/src/arm_gazebo/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p arm_gazebo -o /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv
 
 arm_gazebo_generate_messages_nodejs: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs
-arm_gazebo_generate_messages_nodejs: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/AnglesJoint.js
+arm_gazebo_generate_messages_nodejs: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/msg/pose.js
+arm_gazebo_generate_messages_nodejs: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/FK.js
+arm_gazebo_generate_messages_nodejs: /home/mahwonie/Downloads/final\ robotics/RoboticsLabAssignment/arm_ws/devel/share/gennodejs/ros/arm_gazebo/srv/IK.js
 arm_gazebo_generate_messages_nodejs: arm_gazebo/CMakeFiles/arm_gazebo_generate_messages_nodejs.dir/build.make
 
 .PHONY : arm_gazebo_generate_messages_nodejs

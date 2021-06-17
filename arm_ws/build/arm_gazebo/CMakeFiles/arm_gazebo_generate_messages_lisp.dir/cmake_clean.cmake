@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/msg/AnglesJoint.lisp"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/msg/pose.lisp"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/srv/FK.lisp"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/common-lisp/ros/arm_gazebo/srv/IK.lisp"
   "CMakeFiles/arm_gazebo_generate_messages_lisp"
 )
 

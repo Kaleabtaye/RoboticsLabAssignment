@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/manifest.l"
-  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/msg/AnglesJoint.l"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/msg/pose.l"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/srv/FK.l"
+  "/home/mahwonie/Downloads/final robotics/RoboticsLabAssignment/arm_ws/devel/share/roseus/ros/arm_gazebo/srv/IK.l"
   "CMakeFiles/arm_gazebo_generate_messages_eus"
 )
 
