@@ -8,12 +8,12 @@ import tinyik as ik
 def Handle_IK(req):
     desired_pose = req.desired_pose
     arm = ik.Actuator([
-        'z', [0, 0, 0.15], #chasis_arm1
-        'x', [0, 0, 2.0],  #arm1_arm2
-        'x', [0, 0, 1.0],  #arm2_arm3
-        'x', [0, 0, 0.5],  #arm3_arm4
-        'z', [0, 0, 0.1],  #arm4_arm5
-        'y', [0, 0, 0.1],  #arm5_palm
+        'z', [0, 0, 0.15], #chasis_arm1 pose
+        'x', [0, 0, 2.0],  #arm1_arm2 pose
+        'x', [0, 0, 1.0],  #arm2_arm3pose
+        'x', [0, 0, 0.5],  #arm3_arm4 pose
+        'z', [0, 0, 0.1],  #arm4_arm5 pose 
+        'y', [0, 0, 0.1],  #arm5_palm pose
     ])
 
     arm.ee = [desired_pose[0], desired_pose[1], desired_pose[2]]
